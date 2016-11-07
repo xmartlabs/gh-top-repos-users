@@ -4,7 +4,7 @@ import math
 import scrapy
 
 MAX_ITEMS_TO_FETCH = 5000
-RESULTS_PER_PAGE = 100
+RESULTS_PER_PAGE = 30
 
 
 class TopReposUsersSpider(scrapy.Spider):

@@ -13,7 +13,7 @@ pip install -r requirements.txt
 Then run:
 
 ```shell
-GH_TOKEN=YOUR_TOKEN ./gh2s3.py
+GH_TOKEN=YOUR_TOKEN scrapy crawl topreposusers -o output/output.json
 ```
 
 ## With Docker
